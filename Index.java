@@ -5,11 +5,14 @@ public class Index{
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
-    System.out.println("Select an option (1-3):");
+    System.out.println("Select an option (1-6):");
     System.out.println();
     System.out.println("1. Break");
     System.out.println("2. Switch");
-    System.out.println("3. Exit");
+    System.out.println("3. Methods");
+    System.out.println("4. Return Methods");
+    System.out.println("5. Power");
+    System.out.println("6. Exit");
 
     System.out.println();
 
@@ -28,6 +31,18 @@ public class Index{
         FirstSwitch.main(null);
         break;
       case 3:
+      	System.out.println("Methods lab");
+      	Methods.main(null);
+      	break;
+      case 4:
+      	System.out.println("ReturnMethods lab");
+      	ReturnMethods.main(null);
+      	break;
+      case 5:
+      	System.out.println("Power ");
+      	Power.main(null);
+      	break;
+      case 6:
         System.out.println("Exiting....");
         break;
       default:
