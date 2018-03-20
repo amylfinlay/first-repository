@@ -10,9 +10,14 @@ public class Index{
     System.out.println("1. Break");
     System.out.println("2. Switch");
     System.out.println("3. Methods");
-    System.out.println("4. Return Methods");
-    System.out.println("5. Power");
-    System.out.println("6. Exit");
+    System.out.println("4. Shadow");
+    System.out.println("5. Overloading");
+    System.out.println("6. First Array");
+	System.out.println("7. Second Array");
+	System.out.println("8. Try Catch");
+	System.out.println("9. Enhanced");
+	System.out.println("10.Search Student");
+    System.out.println("11. Exit");
 
     System.out.println();
 
@@ -43,6 +48,26 @@ public class Index{
       	Power.main(null);
       	break;
       case 6:
+	    System.out.println("Power ");
+	  	Power.main(null);
+      	break;
+      case 7:
+		System.out.println("Power ");
+		Power.main(null);
+      	break;
+      case 8:
+		System.out.println("Power ");
+		Power.main(null);
+      	break;
+      case 9:
+		System.out.println("Power ");
+		Power.main(null);
+      	break;
+ 	  case 10:
+		System.out.println("Power ");
+		Power.main(null);
+      	break;
+      case 11:
         System.out.println("Exiting....");
         break;
       default:
