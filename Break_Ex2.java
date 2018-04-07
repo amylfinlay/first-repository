@@ -5,6 +5,8 @@ public class Break_Ex2{
 	Scanner input = new Scanner(System.in);
 	int counter = 0;
 
+		Index.main(null);
+ 
 	System.out.println("Guess a number from 1 to 10");
 	System.out.println("You have 10 attempts: ");
 
