@@ -42,7 +42,7 @@ public class Index{
       	break;
       case 4:
       	System.out.println("Shadowing lab");
-      	ReturnMethods.main(null);
+      	Shadow.main(null);
       	break;
       case 5:
       	System.out.println("Overloading lab");
@@ -50,7 +50,7 @@ public class Index{
       	break;
       case 6:
         System.out.println("First Array lab");
-	Power.main(null);
+	    FirstArray.main(null);
       	break;
       case 7:
 		System.out.println("Second Array lab");
@@ -58,25 +58,27 @@ public class Index{
       	break;
       case 8:
 		System.out.println("Try and Catch lab");
-		Power.main(null);
+		SecondArray.main(null);
       	break;
       case 9:
 		System.out.println("Enhanced for lab");
-		Power.main(null);
+		EnhancedFor.main(null);
       	break;
 	  case 10:
 	    System.out.println("Search Multi-Dimensional Array");
-	    Power.main(null);
+	    SearchStudent.main(null);
       	break;
       case 11:
         System.out.println("Project Exercise 1");
+        Convert.main(null);
         break;
        case 12;
         System.out.println("Project Exercise 2");
+        Search.main(null);
         break;
        case 13;
-       System.out.prinlnt("Exiting... ");
-       break;
+        System.out.prinlnt("Exiting... ");
+        break;
     }
     System.out.println();
 
