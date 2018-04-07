@@ -1,6 +1,7 @@
 public class EnhancedFor
 {
    public static void main(String [] args)
+      Index.main(null);
    {
       int[] x = {7, 6, 11, 15, 19);
       int total = 0;
