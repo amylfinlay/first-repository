@@ -1,4 +1,4 @@
-public class FourthArray
+public class EnhancedFor
 {
    public static void main(String [] args)
    {
