@@ -5,6 +5,8 @@ public class Convert{
       Scanner input = new Scanner(System.in);
       int Celsius
       int Fahernhiet
+	      
+	      Index.main(null);
 
       System.out.println("1. Fahrenheit to Celsius");
       System.out.prinln("2. Celsius to Fahernhiet");
