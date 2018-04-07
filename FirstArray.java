@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class FirstArray
 {
    public static void main(String [] args)
+      Index.main(null);
    {
      int[] x;
      x = new int[4];
