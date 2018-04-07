@@ -1,6 +1,7 @@
 Public class SecondArray
 {
    public static void main(String [] args)
+	   Index.main(null);
    {
       int[] x = {128, 132, 8, 156, 18};
 
