@@ -1,4 +1,3 @@
-// for project - menu choice will invoke another class
 import java.util.Scanner;
 
 public class Index{
@@ -10,14 +9,16 @@ public class Index{
     System.out.println("1. Break");
     System.out.println("2. Switch");
     System.out.println("3. Methods");
-    System.out.println("4. Shadow");
+    System.out.println("4. Shadowing");
     System.out.println("5. Overloading");
     System.out.println("6. First Array");
 	System.out.println("7. Second Array");
 	System.out.println("8. Try Catch");
-	System.out.println("9. Enhanced");
-	System.out.println("10.Search Student");
-    System.out.println("11. Exit");
+	System.out.println("9. Enhanced For");
+	System.out.println("10. Multi-Dimensional Array");
+    System.out.println("11. Project Exercise 1");
+    System.out.printlnt("12. Project Exercise 2");
+    System.out.println("13. Exit");
 
     System.out.println();
 
@@ -28,7 +29,7 @@ public class Index{
     switch(choice){
       case 1:
         System.out.println("Break lab");
-        Break_Ex2.main(null); //static method call, no instance required.
+        Break_Ex2.main(null); 
         break;
       case 2:
         System.out.println("Switch lab");
@@ -40,39 +41,42 @@ public class Index{
       	Methods.main(null);
       	break;
       case 4:
-      	System.out.println("ReturnMethods lab");
+      	System.out.println("Shadowing lab");
       	ReturnMethods.main(null);
       	break;
       case 5:
-      	System.out.println("Power ");
+      	System.out.println("Overloading lab");
       	Power.main(null);
       	break;
       case 6:
-	    System.out.println("Power ");
-	  	Power.main(null);
+        System.out.println("First Array lab");
+	Power.main(null);
       	break;
       case 7:
-		System.out.println("Power ");
+		System.out.println("Second Array lab");
 		Power.main(null);
       	break;
       case 8:
-		System.out.println("Power ");
+		System.out.println("Try and Catch lab");
 		Power.main(null);
       	break;
       case 9:
-		System.out.println("Power ");
+		System.out.println("Enhanced for lab");
 		Power.main(null);
       	break;
- 	  case 10:
-		System.out.println("Power ");
-		Power.main(null);
+	  case 10:
+	    System.out.println("Search Multi-Dimensional Array");
+	    Power.main(null);
       	break;
       case 11:
-        System.out.println("Exiting....");
+        System.out.println("Project Exercise 1");
         break;
-      default:
-        System.out.println("Invalid choice");
+       case 12;
+        System.out.println("Project Exercise 2");
         break;
+       case 13;
+       System.out.prinlnt("Exiting... ");
+       break;
     }
     System.out.println();
 
